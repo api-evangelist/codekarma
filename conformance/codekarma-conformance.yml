@@ -1,0 +1,29 @@
+generated: '2026-07-18'
+method: searched
+source: https://codekarma.ai/security
+standards:
+  - id: soc2-type2
+    conforms: true
+    evidence: >-
+      Security page states "SOC 2 Type 2 Certified — independently audited...
+      across security, availability, and confidentiality trust service criteria."
+  - id: tls-1.3
+    conforms: true
+    evidence: "TLS 1.3 in transit (security page); live probe confirms TLSv1.3 on codekarma.ai"
+  - id: encryption-at-rest-aes256
+    conforms: true
+    evidence: "AES-256 encryption at rest (security page)"
+  - id: rbac
+    conforms: true
+    evidence: "Role-based access control with SSO integration (security page)"
+  - id: audit-logging
+    conforms: true
+    evidence: "Immutable audit logging and monitoring (security page)"
+  - id: iso-27001
+    conforms: false
+    evidence: "No ISO 27001 certification claimed on the security page (as of 2026-07-18)"
+compliance_program:
+  published: true
+  url: https://codekarma.ai/security
+  certifications:
+    - SOC 2 Type 2

@@ -1,9 +1,34 @@
 aid: codekarma
 name: CodeKarma
-description: 'CodeKarma is a company surfaced as a portfolio company of prosus-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  CodeKarma is a production intelligence platform that maps 100% of production
+  traffic directly to source code, giving engineering teams and AI agents
+  code-level visibility into how software actually behaves in production. Its
+  products include KarmaLens (an IDE plugin for JetBrains and VS Code surfacing
+  dead code, method frequency, and performance hotspots), KarmaDomain (live
+  API-level dependency graphs across microservices, databases, and async
+  systems), KarmaPulse (an operations command center with API health, error
+  drift, and AI root cause analysis), and KarmaIQ (an MCP server that feeds
+  production context to AI coding agents such as Cursor, Windsurf, GitHub
+  Copilot, and Claude). Deployed as managed SaaS or bring-your-own-cloud
+  (AWS, Azure, GCP), CodeKarma is SOC 2 Type 2 certified and collects only
+  behavioral telemetry — no PII, payloads, or request bodies. Founded by
+  Anantharam Vanchi Prakash and Priyanka Nahata, based in Bengaluru, India, and
+  backed by Prosus, Accel, Xeed Ventures, SenseAI Ventures, and Stargazer
+  Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/codekarma/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://codekarma.ai/og-default.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +37,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Ai
+- Production Intelligence
+- Observability
+- AI Agents
+- MCP
+- Developer Tools
+- Code Analysis
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +56,24 @@ maintainers:
 common:
 - type: Website
   url: https://codekarma.ai
+- type: Blog
+  url: https://codekarma.ai/blog
+- type: PrivacyPolicy
+  url: https://codekarma.ai/privacy-policy
+- type: TermsOfService
+  url: https://codekarma.ai/terms
+- type: Compliance
+  url: https://codekarma.ai/security
+- type: LLMsTxt
+  url: llms/codekarma-llms.txt
+- type: MCPServer
+  url: mcp/codekarma-mcp.yml
+- type: Conformance
+  url: conformance/codekarma-conformance.yml
+- type: DomainSecurity
+  url: security/codekarma-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
