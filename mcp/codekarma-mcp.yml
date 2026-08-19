@@ -4,30 +4,28 @@ status: published
 source: https://codekarma.ai/products
 server:
   name: KarmaIQ
-  description: >-
-    KarmaIQ is CodeKarma's MCP (Model Context Protocol) server that provides
-    production context to AI coding agents for deterministic debugging and root
-    cause analysis. It exposes a blended, production-grounded view spanning
-    service-to-service, API-to-API, and method-to-method behavior mapped to
-    source code, based on 100% of production traffic (not samples).
-  # Transport and public endpoint URL are not documented on the public site.
-  # KarmaIQ is delivered via SaaS or Bring-Your-Own-Cloud (AWS/Azure/GCP), so
-  # the MCP endpoint is provisioned per deployment rather than a single hosted URL.
+  description: KarmaIQ is CodeKarma's MCP (Model Context Protocol) server that provides production context
+    to AI coding agents for deterministic debugging and root cause analysis. It exposes a blended, production-grounded
+    view spanning service-to-service, API-to-API, and method-to-method behavior mapped to source code,
+    based on 100% of production traffic (not samples).
   transport: unknown
   url: null
 clients:
-  - Cursor
-  - Windsurf
-  - GitHub Copilot
-  - Claude
-  - Custom agents
+- Cursor
+- Windsurf
+- GitHub Copilot
+- Claude
+- Custom agents
 features:
-  - Production context for AI agents (service / API / method levels)
-  - Deterministic debugging and RCA grounded in real production data
-  - BYOK (bring-your-own-keys) support for custom LLMs
-tools: []   # No public tool manifest published and no OpenAPI to derive candidates from.
-notes: >-
-  Confirmed as a real, first-party published MCP server product (homepage,
-  /products, and /llms.txt). No public tool list, config, or endpoint is
-  documented, and there is no OpenAPI in this repo to derive a candidate tool
-  list from, so tools[] is left empty rather than fabricated.
+- Production context for AI agents (service / API / method levels)
+- Deterministic debugging and RCA grounded in real production data
+- BYOK (bring-your-own-keys) support for custom LLMs
+tools: []
+notes: Confirmed as a real, first-party published MCP server product (homepage, /products, and /llms.txt).
+  No public tool list, config, or endpoint is documented, and there is no OpenAPI in this repo to derive
+  a candidate tool list from, so tools[] is left empty rather than fabricated.
+deployment:
+  mode: unclear
+  verified: searched
+  checked: '2026-08-12'
+  source: catalog MCP census
