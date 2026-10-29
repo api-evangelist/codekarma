@@ -64,6 +64,89 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-CodeKarma is a company surfaced as a portfolio company of prosus-ventures and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.
+CodeKarma is a production intelligence platform that maps 100% of production traffic directly to source code, giving engineering teams and AI agents code-level visibility into how software actually behaves in production. Its products include KarmaLens (an IDE plugin for JetBrains and VS Code surfacing dead code, method frequency, and performance hotspots), KarmaDomain (live API-level dependency graphs across microservices, databases, and async systems), KarmaPulse (an operations command center with API health, error drift, and AI root cause analysis), and KarmaIQ (an MCP server that feeds production context to AI coding agents such as Cursor, Windsurf, GitHub Copilot, and Claude). Deployed as managed SaaS or bring-your-own-cloud (AWS, Azure, GCP), CodeKarma is SOC 2 Type 2 certified and collects only behavioral telemetry — no PII, payloads, or request bodies. Founded by Anantharam Vanchi Prakash and Priyanka Nahata, based in Bengaluru, India, and backed by Prosus, Accel, Xeed Ventures, SenseAI Ventures, and Stargazer Ventures.
 
-Backed by: prosus-ventures — https://codekarma.ai
+**Areas:** Company · Artificial Intelligence · Production Intelligence · Observability · AI Agents · MCP · Developer Tools · Code Analysis
+
+## CodeKarma on APIs.io
+
+Everything profiled for CodeKarma is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/codekarma/](https://apis.io/providers/codekarma/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [KarmaIQ](https://apis.io/servers/codekarma/karmaiq/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Codekarma Domain Security](https://apis.io/security/codekarma/codekarma-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://codekarma.ai)
+- [Blog](https://codekarma.ai/blog)
+- [Compliance](https://codekarma.ai/security)
+- [Terms of service](https://codekarma.ai/terms)
+- [Privacy policy](https://codekarma.ai/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 14.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.0 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 28.9 |
+
+**Agent readiness 3.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 21.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/codekarma/](https://apis.io/providers/codekarma/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for CodeKarma: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/codekarma/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
